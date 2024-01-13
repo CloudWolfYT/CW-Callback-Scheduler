@@ -48,7 +48,7 @@ https://github.com/gibbsly/gu
 <table>
   <tr>
     <td align="center"><a href="https://github.com/CloudWolfYT"><img src="https://avatars.githubusercontent.com/u/64243799?v=4" width="100px;" alt=""/><br /><sub><b>Cloud Wolf</b></sub></a><br /><a href="#" title="Project Creator">🔨</a></td>
-    <td align="center"><a href="https://github.com/gibbsly"><img src="https://avatars.githubusercontent.com/u/49855662?v=4" width="100px;" alt=""/><br /><sub><b>gibbsly</b></sub></a><br /><a href="#" title="GU Library">🔨</a></td>
+    <td align="center"><a href="https://github.com/gibbsly"><img src="https://avatars.githubusercontent.com/u/49855662?v=4" width="100px;" alt=""/><br /><sub><b>gibbsly</b></sub></a><br /><a href="#" title="GU Library">💡</a></td>
   </tr>
 </table>
 
