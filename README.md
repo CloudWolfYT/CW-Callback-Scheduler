@@ -1,6 +1,6 @@
 # Callback Scheduler (Minecraft Data Pack)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?)](#contributors-)
 [![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/AsHA7GgqqM)
 [![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://www.youtube.com/watch?v=MhSg40o8HUc)
 [![Downloads](https://img.shields.io/github/downloads/CloudWolfYT/CW-Callback-Scheduler/total.svg)](https://github.com/CloudWolfYT/CW-Callback-Scheduler/releases)
@@ -34,6 +34,7 @@ function cb:schedule
 <!-- markdownlint-disable -->
 
 This example will make every entity in your world say "hi (name)" after 31 ticks.
+
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
