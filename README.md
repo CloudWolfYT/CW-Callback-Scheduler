@@ -35,6 +35,9 @@ function cb:schedule
 
 This example will make every entity in your world say "hi (name)" after 31 ticks.
 
+This pack uses the "gu" library to parse entity UUID integers into strings:
+https://github.com/gibbsly/gu
+
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
