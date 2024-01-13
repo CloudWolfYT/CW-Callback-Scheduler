@@ -1,9 +1,9 @@
-# Health Display (Minecraft Data Pack)
+# Callback Scheduler (Minecraft Data Pack)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?)](#contributors-)
 [![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/AsHA7GgqqM)
 [![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://www.youtube.com/watch?v=MhSg40o8HUc)
-[![Downloads](https://img.shields.io/github/downloads/CloudWolfYT/CW-Health-Display/total.svg)](https://github.com/CloudWolfYT/CW-Health-Display/releases)
+[![Downloads](https://img.shields.io/github/downloads/CloudWolfYT/CW-Callback-Scheduler/total.svg)](https://github.com/CloudWolfYT/CW-Callback-Scheduler/releases)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="images/social.png"
@@ -13,8 +13,8 @@
 ## How to Use 📝
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-This pack displays the health of a mob next to its name, when attacked. <br>
-Simply download the datapack and drop it in your world's "datapacks" folder and type /reload in game. If you intend to use this in survival, click on settings and ensure the "apply to all mobs" box is ticked. If you intend to use this in a map uncheck the box and give mobs you want to display the health of a tag of "cw_hp_disp"
+This datapack allows you to easily run commands at a later time AS one or more entities!<br>
+Since /schedule does not keep entity context, this pack helps maintain context without requiring hardcoded scoreboard timers or custom schedule functions.
 
 <!-- markdownlint-disable -->
 <!-- markdownlint-enable -->
@@ -23,9 +23,20 @@ Simply download the datapack and drop it in your world's "datapacks" folder and 
 ## How it Works! 🔨
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-Since we know the length of the json text component before the name, calculated based on the magnitude of the values present, a macro command can slice the CustomName string to remove the last display and then simply append a new value from a text_display entity.<br>
+First modify the data storage to contain the command you want to run and the entities you want to run it at, then run the scheduler. That is it! At the designated time the commands will be ran as the designated entities (when the command is scheduled) <br>
+
+Example:
+<!-- markdownlint-enable -->
+```
+data modify storage cb in set value {ticks:31,selector:"@e",command:"say hi @s"}
+function cb:schedule
+```
+<!-- markdownlint-disable -->
+
+This example will make every entity in your world say "hi (name)" after 31 ticks.
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 
 ## Contributors 🧱
 <!-- prettier-ignore-start -->
