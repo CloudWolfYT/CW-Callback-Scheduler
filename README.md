@@ -1,6 +1,6 @@
 # Callback Scheduler (Minecraft Data Pack)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?)](#contributors-)
 [![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/AsHA7GgqqM)
 [![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://www.youtube.com/watch?v=MhSg40o8HUc)
 [![Downloads](https://img.shields.io/github/downloads/CloudWolfYT/CW-Callback-Scheduler/total.svg)](https://github.com/CloudWolfYT/CW-Callback-Scheduler/releases)
@@ -48,6 +48,9 @@ https://github.com/gibbsly/gu
 <table>
   <tr>
     <td align="center"><a href="https://github.com/CloudWolfYT"><img src="https://avatars.githubusercontent.com/u/64243799?v=4" width="100px;" alt=""/><br /><sub><b>Cloud Wolf</b></sub></a><br /><a href="#" title="Project Creator">🔨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/gibbsly"><img src="https://avatars.githubusercontent.com/u/49855662?v=4" width="100px;" alt=""/><br /><sub><b>gibbsly</b></sub></a><br /><a href="#" title="GU Library">🔨</a></td>
   </tr>
 </table>
 
