@@ -1,0 +1,1 @@
+scoreboard players add .time cb 1
