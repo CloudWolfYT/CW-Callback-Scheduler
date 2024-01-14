@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?)](#contributors-)
 [![Discord](https://img.shields.io/badge/Discord-⛓-blue.svg)](https://discord.gg/AsHA7GgqqM)
-[![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://www.youtube.com/watch?v=MhSg40o8HUc)
+[![Tutorial](https://img.shields.io/badge/Tutorial-▶-red.svg)](https://www.youtube.com/watch?v=Z6gcFwkdges)
 [![Downloads](https://img.shields.io/github/downloads/CloudWolfYT/CW-Callback-Scheduler/total.svg)](https://github.com/CloudWolfYT/CW-Callback-Scheduler/releases)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
