@@ -1,4 +1,4 @@
-function cb:gu/load
+function cb:internal/gu/load
 scoreboard objectives add cb dummy
 
 ## Zero the schedualer and clear tasks
