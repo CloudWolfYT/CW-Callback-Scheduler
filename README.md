@@ -28,8 +28,7 @@ First modify the data storage to contain the command you want to run and the ent
 Example:
 <!-- markdownlint-enable -->
 ```
-data modify storage cb in set value {ticks:31,selector:"@e",command:"say hi @s"}
-function cb:schedule
+function cb:schedule {ticks:31,selector:"@e",command:"say hi @s"}
 ```
 <!-- markdownlint-disable -->
 
