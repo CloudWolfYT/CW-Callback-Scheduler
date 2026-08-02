@@ -1,0 +1,8 @@
+[project]
+name = "callback-scheduler"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beet>=0.116.0",
+]

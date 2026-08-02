@@ -1,0 +1,3 @@
+[submodule "include/gu"]
+	path = include/gu
+	url = https://github.com/gibbsly/gu

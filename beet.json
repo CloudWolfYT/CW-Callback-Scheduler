@@ -1,0 +1,10 @@
+{
+    "name": "callback-scheduler",
+    "data_pack": {
+        "load": [
+            "include/gu",
+            "src"
+        ]
+    },
+    "output": "build"
+}
